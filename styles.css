@@ -33,12 +33,15 @@ body {
 .sidebar  {
     position: relative;
     height: 100vh;
-    width: 600px;
+    width: 1200px;
     overflow: hidden;
 }
 
 img[src="plants.jpg"] {
     position: absolute;
+    min-width: 670px;
+    width: 100%;
+    height: auto;
 }
 
 .img-container {
