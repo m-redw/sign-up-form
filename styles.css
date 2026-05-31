@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Norse';
+    font-family: 'Norse-Bold';
     src: url('fonts/Norse-Bold.woff2') format('woff2'),
         url('fonts/Norse-Bold.woff') format('woff');
     font-weight: bold;
@@ -14,4 +14,63 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+img[src="plants.jpg"] {
+    position: absolute;
+}
+
+.sidebar  {
+    position: relative;
+    height: 100vh;
+    width: 900px;
+    overflow: hidden;
+}
+
+.img-container {
+    position: absolute;
+    top: 20%;
+
+    background-color: rgba(0, 0, 0, .5);
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[src="odin-lined.png"] {
+    height: 80%;
+}
+
+.bg-credits {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 1%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.bg-credits a:link {
+    color: white;
+}
+
+.bg-credits a:visited {
+    color: rgb(214, 193, 0);
+}
+
+span {
+    font-family: 'Norse-Bold', sans-serif;
+    color: white;
+    font-size: 64px;
 }
