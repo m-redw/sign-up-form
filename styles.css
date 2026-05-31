@@ -154,6 +154,14 @@ button {
     margin: 0 0 32px 0;
 }
 
+button:hover {
+    background-color: #314428;
+}
+
+button:active {
+    background-color: #172e17;
+}
+
 .bottom a {
     font-weight: bold;
     text-decoration: none;
