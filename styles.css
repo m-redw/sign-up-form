@@ -23,15 +23,15 @@ body {
     display: flex;
 }
 
-img[src="plants.jpg"] {
-    position: absolute;
-}
-
 .sidebar  {
     position: relative;
     height: 100vh;
-    width: 900px;
+    width: 600px;
     overflow: hidden;
+}
+
+img[src="plants.jpg"] {
+    position: absolute;
 }
 
 .img-container {
