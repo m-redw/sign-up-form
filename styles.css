@@ -122,10 +122,16 @@ label {
 }
 
 input {
-    border: 1px solid rgb(214, 214, 214);
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
     width: 200px;
     height: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #5087ff;
+    box-shadow: 0 5px 10px -7px rgb(65, 65, 65);
 }
 
 input:user-invalid {
