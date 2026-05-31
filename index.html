@@ -7,6 +7,59 @@
     <title>Sign-Up Form</title>
 </head>
 <body>
-    
+    <section class="sidebar">
+        <img src="plants.jpg" alt="Picture of plant leaves." height="600">
+        <div class="img-container">
+            <img src="odin-lined.png" alt="Odin logo.">
+        </div>
+        <p>Photo by 
+            <a href="https://unsplash.com/@haliewestphoto">
+                Halie West
+            </a> on 
+            <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
+                Unsplash
+            </a>
+        </p>
+    </section>
+
+    <section class="main-section">
+        <div>
+            This is not a real online service! 
+            You know you need something like this 
+            in your life to help you realize your 
+            deepest dreams. Sign up <em>now</em> 
+            to get started.
+        </div>
+        <form id="signUp">
+            <h2>Let's do this!</h2>
+            <div>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div>
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="phoneNum">PHONE NUMBER</label>
+                <input type="tel" id="phoneNum" name="phoneNum">
+            </div>
+            <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                <input type="password" id="passwordConfirm" name="passwordConfirm">
+            </div>
+        </form>
+
+        <button type="submit" form="signUp">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </section>
 </body>
 </html>
